@@ -1,0 +1,105 @@
+.App {
+  width: 100%;
+  margin: auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 44);
+  color: white;
+  height: 17rem;
+}
+
+.header-img {
+  display: flex;
+  align-items: left;
+}
+
+.header-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style-type: none;
+  position: relative;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100rem;
+  margin-bottom: 6rem;
+  border-style: solid;
+  border-color: white;
+  padding: 2rem;
+}
+
+.news-title {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.news span {
+  cursor: pointer;
+  margin-left: 98rem;
+  font-size: 3rem;
+  background-color: white;
+  color: black;
+}
+
+.news-name {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  position: relative;
+}
+
+.news-img {
+  width: 20rem;
+  height: 12rem;
+  border-style: solid;
+  position: relative;
+}
+
+.news-con {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  position: relative;
+}
+
+.news-author {
+  font-weight: bold;
+  font-size: medium;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.news-description {
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.con {
+  color: white;
+  background-color: rgb(0, 0, 44);
+  height: 140rem;
+  margin-top: 0rem;
+  position: relative;
+  align-items: center;
+}
